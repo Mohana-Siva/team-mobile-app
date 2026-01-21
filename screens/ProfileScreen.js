@@ -5,7 +5,10 @@ export default function ProfileScreen() {
   return (
     <View>
       <Text>Profile Page</Text>
-      <Button title="Go to Settings" onPress={() => router.push('/settings')} />
+      <Button
+        title="Go to Settings"
+        onPress={() => router.push('/settings')}
+      />
     </View>
   );
 }
